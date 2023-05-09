@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 35px;
+}
+#logo-home{
+    width: 192px;
+    height: 40px;
+}
+ul{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+li, a{
+    margin: 0px 30px;
+    text-decoration: none;
+    color: black;
+    font: normal 600 21px WorkSans;
+}
+.btn-1{
+    background-color: #928f8f;
+    height: 60px;
+    width: 300px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+.home-1 > h1{
+    width: 730px;
+    font-size: 45px;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+.home-1 > h2{
+    width: 760px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.btn-2{
+    width: 330px;
+    margin-top: 70px;
+    background-color: #FFDE59;
+    color: black;
+    margin-left: -25px;
+}
+#modelo{
+    width: 550px;
+}
+.opcoes{
+    transition: 0.2s;
+}
+
+/* PSEUDOS */
+
+.btn-1:hover{
+    cursor: pointer;
+    background-color: #727171;
+}
+.btn-2:hover{
+    background-color: #fae48d;
+}
+#logo-home:hover{
+    cursor: pointer;
+}
+.opcoes:hover{
+    transform: scale(1.3);
+}
