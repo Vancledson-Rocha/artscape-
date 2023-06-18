@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.servi{
+    background-color: #D8D5C9;
+    height: 100%;
+}
+#services{
+    background-image: url('../img/servic/conexão.png');
+    background-size: cover;
+}
+#services > h1{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+.celular{
+    display: flex;
+}
+#cell{
+    width: 800px;
+    margin: auto;
+}

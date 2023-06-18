@@ -9,8 +9,18 @@
     <!-- LINKS CSS-->
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./src/css/service.css">
+    <link rel="stylesheet" href="./src/css/opcoes-service.css">
+    <link rel="stylesheet" href="./src/css/icon-opcoes.css">
+    <link rel="stylesheet" href="./src/css/about.css">
+    <link rel="stylesheet" href="./src/css/final.css">
+
+    <!-- ANIMAÇÕES -->
+    <link rel="stylesheet" href="./src/js/home-anim.css">
+    <link rel="stylesheet" href="./src/js/service-anim.css">
 </head>
 <body>
+    <h1 id="dev">Vancledson Rocha</h1>
     <header>
         <nav>
             <img id="logo-home" src="./src/img/home/logo-home.png" alt="logo">
@@ -24,7 +34,7 @@
         </nav>
         <div id="home">
             <div class="home-1">
-                <h1>Criando conexão <strong>Humana</strong><br>Através da experiência Digital</h1>
+                <h1 class="titulo" id="tit01">Criando conexão <strong id="shome">Humana</strong> <br> Através da experiência <span id="spaH">Digital</span></h1>
                 <h2>A Artscape é uma agência de marketing digital remoto<br>com sede em Toronto, Canadá</h2>
                 <a href="https://wa.me/+1 (647) 235-4386" target="_blank" rel='external'><button type="button" class="btn-1 btn-2">Agende uma reunião online</button></a>
             </div>
@@ -36,9 +46,191 @@
     <div class="chamativo">
         <h3>Combinamos a <strong>criatividade</strong> de uma agência de marketing<br>com a expertise estratégica de uma <strong>consultoria</strong><br>para <strong>ajudá-lo</strong> a atingir seus <strong>objetivos.</strong></h3>
     </div>
-
-    <main></main>
-    <footer></footer>
-
+    <main>
+        <section class="servi">
+            <div id="services">
+                <h1 class="titulo" id="teste001">Nossos <strong>Serviços</strong></h1>
+                <div class="celular">
+                    <img id="cell" src="./src/img/servic/celular.png" alt="celular">
+                    <div class="tela-cell">
+                        <div id="serv-1" class="tam-1 bottServ"><p>Estrategia</p></div>
+                        <div id="serv-2" class="tam-2 bottServ"><p>Technology</p></div>
+                        <div id="serv-3" class="tam-3 bottServ"><p>Analytics</p></div>
+                        <div id="serv-4" class="tam-4 bottServ"><p>Design</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="opc opc-1">
+                <div class="table1">
+                    <div class="img-1"><img src="./src/img/servic/Estrategy/architeture.png" alt="Brand Architecture"><h5>Brand<br>Architecture</h5></div>
+                    <div class="img-2"><img src="./src/img/servic/Estrategy/concept.png" alt="Visual Concept"><h5>Visual<br> Concept</h5></div>
+                    <div class="img-3"><img src="./src/img/servic/Estrategy/consulting.png" alt="Consulting"><h5>Consulting</h5></div>
+                </div>
+                <div class="table2">
+                    <div class="img-4"><img src="./src/img/servic/Estrategy/planning.png" alt="Visual Planning"><h5>Visual<br>Planning</h5></div>
+                    <div class="img-5"><img src="./src/img/servic/Estrategy/strategy.png" alt="Digital  Strategy"><h5>Digital<br>Strategy</h5></div>
+                </div>
+            </div>
+            <div class="opc opc-2">
+                <div class="table1">
+                    <div class="img-1"><img src="./src/img/servic/technology/back.png" alt="Back-end"><h5>Back-end<br>Development</h5></div>
+                    <div class="meio">
+                        <div class="img-2"><img src="./src/img/servic/technology/cms.png" alt="CMS"><h5>CMS<br>Integrations</h5></div>
+                        <div class="img-3"><img src="./src/img/servic/technology/development.png" alt="Development"><h5>Web<br>Development</h5></div>
+                    </div>
+                    <div class="img-4"><img src="./src/img/servic/technology/front.png" alt="Front-end"><h5>Front-end<br>Development</h5></div>
+                </div>
+                <div class="table2">
+                    <div class="img-5"><img src="./src/img/servic/technology/native.png" alt="Native Apps"><h5>Native<br>Apps</h5></div>
+                    <div class="img-6"><img src="./src/img/servic/technology/performance.png" alt="Performance Testing"><h5>Performance<br>Testing</h5></div>
+                    <div class="img-7"><img src="./src/img/servic/technology/ux.png" alt="Ux Optimization"><h5>UX<br>Optimization</h5></div>
+                </div>
+            </div>
+            <div class="opc opc-3">
+                <div class="table1">
+                    <div class="img-1"><img src="./src/img/servic/Data/creative.png" alt="Creative Content"><h5>Creative <br>Content</h5></div>
+                    <div class="meio">
+                        <div class="img-2"><img src="./src/img/servic/Data/email.png" alt="Email Marketing"><h5>Email <br>Marketing</h5></div>
+                        <div class="img-3"><img src="./src/img/servic/Data/google.png" alt="Google ADS"><h5>Google <br>e Meta ADS</h5></div>
+                        <div class="img-4"><img src="./src/img/servic/Data/lead.png" alt="Lead Generation"><h5>Lead <br>Generation</h5></div>
+                    </div>
+                    <div class="img-5"><img src="./src/img/servic/Data/marketing.png" alt="Digital Marketing"><h5>Digital <br>Merketing</h5></div>
+                </div>
+                <div class="table2">
+                    <div class="img-6"><img src="./src/img/servic/Data/optiminization1.png" alt="Digital Optimization"><h5>Digital <br>Optimization</h5></div>
+                    <div class="meio">
+                        <div class="img-7"><img src="./src/img/servic/Data/search.png" alt="Paid Search"><h5>Paid <br>Search</h5></div>
+                        <div class="img-8"><img src="./src/img/servic/Data/SEO.png" alt="SEO Analytics"><h5>SEO <br>Analytics</h5></div>
+                    </div>
+                    <div class="img-9"><img src="./src/img/servic/Data/social.png" alt="Social Media"><h5>Social <br>Media</h5></div>
+                </div>
+            </div>
+            <div class="opc opc-4">
+                <div class="table1">
+                    <div class="img-1"><img src="./src/img/servic/Design/Direction.png" alt="Art Direction"><h5>Art<br>Direction</h5></div>
+                    <div class="meio">
+                        <div class="img-2"><img src="./src/img/servic/Design/guidelines.png" alt="Brand guidelines"><h5>Brand<br>guidelines</h5></div>
+                        <div class="img-3"><img src="./src/img/servic/Design/identity.png" alt="Visual Identity"><h5>Visual<br>Identity</h5></div>
+                    </div>
+                    <div class="img-4"><img src="./src/img/servic/Design/integraction.png" alt="integraction Design"><h5>Integration<br>Design</h5></div>
+                </div>
+                <div class="table2">
+                    <div class="img-5"><img src="./src/img/servic/Design/Prototyping.png" alt="Prototyping"><h5>Prototyping</h5></div>
+                    <div class="img-6"><img src="./src/img/servic/Design/responsive.png" alt="Responsive Design"><h5>Responsive<br>Design</h5></div>
+                    <div class="img-7"><img src="./src/img/servic/Design/ui.png" alt="UI Design"><h5>UI<br>Design</h5></div>
+                </div>
+            </div>
+        </section>
+        <div class="vaga"></div>
+        <div class="chamativo">
+            <h3>Unimos diversas mentes que trabalham em <br>harmonia <strong>para transformar</strong> complexos problemas <br>em oportunidades de crescimento</h3>
+        </div>
+        <div id="about">
+            <div class="about-1">
+                <h1 class="titulo-about">Sobre Nós:</h1>
+                <div class="content">
+                    <div>
+                        <h2>Todos os dias assumimos negócios <br>Significativos, desafios que <br><strong>Aumentam o valor da empresa</strong></h2>
+                        <a href="https://wa.me/+1 (647) 235-4386" target="_blank" rel='external'><button type="button" class="btn-1 btn-2">Agende uma reunião online</button></a>
+                    </div>
+                    <img src="./src/img/about/logo-sobre.png" alt="logo-sobre">
+                </div>
+            </div>
+            <hr>
+            <div class="about-2" id="missao">
+                <div class="conteudo" data-anime="left">
+                    <h1 class="h-content">Missão</h1>
+                    <p class="p-content">Nossa Missão é ajudar sua empresa a crescer. Alcançamos esse crescimento por meio de um casamento estratégico de tecnologia, fluxo de trabalho aprimorado, melhores práticas e muita experiência.</p>
+                </div>
+                <div class="relacionado" data-anime="right">
+                    <img src="./src/img/about/missao.jpg" alt="missão">
+                </div>
+            </div>
+            <hr class="linha-2">
+            <div class="about-2" id="valores" data-anime="baixo">
+                <div class="conteudo" data-anime="left">
+                    <h1 class="h-content">Valores</h1>
+                    <p class="p-content">Somos uma equipe de indivíduos únicos que estão vinculados por nossas conexões, fortalecidas por uma busca pelo domínio, e impulsionando para o futuro com agilidade.</p>
+                </div>
+                <div class="relacionado" data-anime="right">
+                    <img src="./src/img/about/Valores-02OFC.jpg" alt="missão">
+                </div>
+            </div>
+            <hr class="linha-2">
+            <div class="about-2" id="individualidade" data-anime="baixo">
+                <div class="conteudo" data-anime="left">
+                    <h1 class="h-content">individualidade</h1>
+                    <p class="p-content">Nossa equipe é alimentada por uma diversidade de pontos fortes, talentos e ambições, isso nos torna únicos e permitimos que um ao outro traga todo o nosso ser para o trabalho porque sabemos que a individualidade é a chave para a nossa química coletiva.</p>
+                </div>
+                <div class="relacionado" data-anime="right">
+                    <img src="./src/img/about/individualidade-02OFC.jpg" alt="individualidade">
+                </div>
+            </div>
+            <hr class="linha-2">
+            <div class="about-2" id="conexao" data-anime="baixo">
+                <div class="conteudo" data-anime="left">
+                    <h1 class="h-content">Conexão</h1>
+                    <p class="p-content">Acreditamos na construção de conexão humanas profundas. Definimos o sucesso pela profundidade dessas conexões, são eles que nos dão sentido e nos relacionam com o nosso trabalho na busca coletiva de construir algo grande juntos.</p>
+                </div>
+                <div class="relacionado" data-anime="right">
+                    <img src="./src/img/about/conexão-02OFCpng.png" alt="conexão">
+                </div>
+            </div>
+            <hr class="linha-2">
+            <div class="about-2" id="dominio" data-anime="baixo">
+                <div class="conteudo" data-anime="left">
+                    <h1 class="h-content">Domínio</h1>
+                    <p class="p-content">Valorizamos a maestria não para alcançá-la, mas para persegui-la. Cultivamos um ambiente diversificado onde a engenhosidade pode prosperar sem preconceitos com base no aprendizado contínuo, no crescimento pessoal e na boa e velha curiosidade.</p>
+                </div>
+                <div class="relacionado" data-anime="right">
+                    <img src="./src/img/about/dominio-02OFC.jpg" alt="dominio">
+                </div>
+            </div>
+            <hr class="linha-2">
+            <div class="about-2" id="Agilidade" data-anime="baixo">
+                <div class="conteudo" data-anime="left">
+                    <h1 class="h-content">Agilidade</h1>
+                    <p class="p-content">A mudança é a única constante em nosso mundo, e mudança significa oportunidade. Perseguimos esta oportunidade com energia e otimismo, abraçando o desconhecido e inventando um amanhã melhor, pronto para a reinvenção.</p>
+                </div>
+                <div class="relacionado" data-anime="right">
+                    <img src="./src/img/about/agilidade-02OFC.jpg" alt="agilidade">
+                </div>
+            </div>
+            <hr class="linha-2">
+            <div class="about-3">
+                <div class="conteudo">
+                    <h1>Somos humanos projetando para humanos</h1>
+                    <p>A Artscape é uma agência start-up de markeging digital remota com sede em Toronto, Canadá. Estamos conectados por um impulso incessante em direção à maestria</p>
+                    <a href="https://wa.me/+1 (647) 235-4386" target="_blank" rel='external'><button type="button" class="btn-fim">Agende reunião online</button></a>
+                </div>
+                <div class="relacionado">
+                    <img src="./src/img/about/final.png" alt="arte final">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="contact">
+        <div class="logoFim">
+            <div>
+                <img class="animeArt" src="./src/img/final/artscapeFinal.png" alt="tipografia artscape">
+            </div>
+        </div>
+        <div class="contatos">
+            <div>
+                <a id="voltar" href="#home">Voltar ao início</a>
+                <img class="logoFinal" src="./src/img/final/logoFinal.png" alt="logo">
+            </div>
+            <div class="redes">
+                <a href="#"><img src="./src/img/final/face.png" alt="Facebook"></a>
+                <a href="#"><img src="./src/img/final/insta.png" alt="Instagram"></a>
+                <a href="#"><img src="./src/img/final/linkedin.png" alt="linkedin"></a>
+                <a href="#"><img src="./src/img/final/tik.png" alt="TikTok"></a>
+                <a href="#"><img src="./src/img/final/youtube.png" alt="youtube"></a>
+                <a href="#"><img src="./src/img/final/twiter.png" alt="twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./src/js/home-anim.js"></script>
+    <script src="./src/js/service-anim.js"></script>
 </body>
 </html>

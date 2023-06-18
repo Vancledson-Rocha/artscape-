@@ -1,0 +1,13 @@
+.shome{
+    font-weight: 300;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+}
+.spanH{
+    font-weight: 700;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+}
+.fixou{
+    position: sticky;
+}

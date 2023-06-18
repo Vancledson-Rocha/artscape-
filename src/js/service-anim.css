@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.bottServ{
+    transition: 0.3s;
+}
+.visualiza{
+     visibility: visible;
+     transition: 0.2s;
+     transition-delay: 0.1s;
+     transition-timing-function: ease-out;
+}
+.noVisualiza{
+    visibility: hidden;
+    transition: 0s;
+}
+
+/* Animação services */
+
+.vaga001{
+    background-color: white;
+    width: 100%;
+    height: 1600px;
+}
+[data-anime]{
+    opacity: 0;
+    transition: 0.2s
+}
+[data-anime="left"]{
+    transform: translate3d(-70px, 0, 0);
+    
+}
+[data-anime="right"]{
+    transform: translate3d(35px, 0, 0);
+}
+[data-anime="baixo"]{
+    transform: translate3d(0, 50px, 0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}

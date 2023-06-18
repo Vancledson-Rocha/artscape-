@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.tela-cell{
+    width: 228px;
+    height: 495px;
+    background-image: linear-gradient(90deg, #ff66c463, #ffde5965);
+    position: absolute;
+    margin-left: 555px;
+    margin-top: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.tela-cell p{
+    text-transform: uppercase;
+    margin: 20px;
+    color: white;
+}
+
+/* TAMANHOS */
+
+.tam-1{
+    width: 100%;
+    background-image: linear-gradient(90deg, #000000be, #3633cdaf);
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+    opacity: 1;
+}
+.tam-2{
+    background-color: #242424;
+    margin-bottom: 10px;
+    opacity: 0.6;
+    font-size: 20px;
+}
+.tam-3{
+    background-color: #242424;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    font-size: 15px;
+}
+.tam-4{
+    background-color: #242424;
+    margin-bottom: 10px;
+    opacity: 0.4;
+    font-size: 10px;
+}

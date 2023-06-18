@@ -9,6 +9,7 @@ nav{
 #logo-home{
     width: 192px;
     height: 40px;
+    transition: 0.2s;
 }
 ul{
     width: auto;
@@ -39,11 +40,7 @@ li, a{
     margin-left: 30px;
 }
 .home-1 > h1{
-    width: 730px;
-    font-size: 45px;
-    font-weight: 300;
-    text-transform: uppercase;
-    
+    width: 745px;
 }
 .home-1 > h2{
     width: 760px;
@@ -64,18 +61,33 @@ li, a{
 .opcoes{
     transition: 0.2s;
 }
+.chamativo {
+    width: 98.6vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.chamativo > h3{
+    padding: 90px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+}
 
 /* PSEUDOS */
 
 .btn-1:hover{
     cursor: pointer;
     background-color: #727171;
+    transform: scale(1.05);
 }
 .btn-2:hover{
-    background-color: #fae48d;
+    background-color: #e9b951;
+    transform: scale(1.05);
 }
 #logo-home:hover{
     cursor: pointer;
+    transform: scale(1.3);
 }
 .opcoes:hover{
     transform: scale(1.3);

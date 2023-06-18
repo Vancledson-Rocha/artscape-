@@ -5,6 +5,9 @@
     padding: 0;
     border: 0;
 }
+#dev{
+    display: none;
+}
 @font-face {
     font-family: 'WorkSans';
     src: url('../../WorkSans-VariableFont_wght.ttf');
@@ -22,6 +25,11 @@ header{
     background-size: contain;
     background-position: center center;
     width: 98.6vw;
+}
+.titulo{
+    font-size: 45px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 
